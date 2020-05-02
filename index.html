@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Value Converter</title>
+  </head>
+  <body class="bg-dark">
+    <div class="container text-secondary pt-4">
+        <div class="row">
+            <div class="col-md-6 mx-auto bg-light rounded">
+                <h1 class="pb-3">°C to °F Converter</h1>
+                    <form class="mx-auto" id="convert-form">
+                        <div class="input m-2">
+                            <label for="celsius" class="ml-1">Celsius</label><br>
+                            <input type="number"  id="celsius" placeholder="°C" class="ml-3 bg-dark text-white">
+                        </div>
+                        <div class="results">
+                            <label for="celsius" class="ml-2">Fahrenheit</label><br>
+                            <input type="number" class="mb-2 ml-4 bg-dark text-white" id="fahrenheit" placeholder="°F" disabled>
+                        </div>
+                        <div class="submit mx-auto mb-3 mt-3">
+                            <input type="submit" value="Calculate"  id="calculate" class="bg-info text-white form-control md-2">
+                        </div>
+                    </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
